@@ -60,3 +60,35 @@ body {
   width: 100px;
   height: 33px;
 }
+.gallery-page {
+  padding-top: 40px;
+  padding-bottom: 20;
+  text-align: center;
+}
+.gallery-page-title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery-item {
+  width: calc(33% - (24px * 2 / 3));
+  margin-bottom: 80px;
+}
+.gallery-item-img {
+  border-radius: 30px;
+  width: 374px;
+  height: 248px;
+}
+.gallery-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
