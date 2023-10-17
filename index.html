@@ -31,7 +31,7 @@
             Bydgoskiego, który połączył system Brdy-Wisły z Notecią-Odrą i stał
             się kanałem, który łączył Zachodnią Europę ze Wschodem.
           </p>
-          <button class="registration-btn">Zarejestruj się</button>
+          <button class="registration-btn"><a href="#contact-form" class="registration-btn">Zarejestruj się</a></button>
         </div>
       </div>
     </section>
@@ -96,5 +96,48 @@
         </div>
       </div>
     </section>
+    <section class="contacts-page">
+      <h3 class="contacts-page-title">Kontakt</h3>
+      <p class="contacts-page-description">
+        Skontaktuj się z nami, jeśli chcesz zarezerwować wycieczkę. Możesz
+        również podać swoje preferencje dotyczące wycieczki w specjalnym polu.
+      </p>
+      <form action="" id="contact-form" class="contacts-form" netlify>
+        <!--dodać netlify-->
+        <div class="contacts-form-field">
+          <label for="user-name" contacts-form-field-label>Imię</label>
+          <input
+            id="user-name"
+            type="text"
+            name="Imię"
+            class="contacts-form-input"
+          />
+        </div>
+        <div class="contacts-form-field">
+          <label for="user-email" contacts-form-field-label>Email</label>
+          <input
+            id="user-email"
+            type="text"
+            name="Email"
+            class="contacts-form-input"
+          />
+        </div>
+        <div class="contacts-form-field">
+          <label for="user-text" class="contacts-form-field-label"
+            >Wiadomość</label
+          >
+          <textarea
+            name="Wiadomość"
+            id="user-text"
+            class="contacts-form-textarea"
+            rows="5" 
+            cols="50" 
+            style="resize: none;"
+          ></textarea>
+        </div>
+        <button class="contacts-form-btn">Wyślij wiadomość</button>
+      </form>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
